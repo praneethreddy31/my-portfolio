@@ -41,7 +41,7 @@ export default function Home() {
       <aside className=" sm:flex-row gap-2">
         <div>
           <p className="lowercase text-neutral-7 dark:text-neutral-dark-7 text-balance text-sm">
-          A lazy student who <span className=" bg-[#c8ff8a] text-black"> &nbsp; Codes &nbsp;</span>and <span className=" bg-[#c8ff8a] text-black"> &nbsp; designs &nbsp;</span> just enough to make life easier
+          A dumb unemployed student who <span className=" bg-[#c8ff8a] text-black"> &nbsp; Codes &nbsp;</span> and <span className=" bg-[#c8ff8a] text-black"> &nbsp; designs &nbsp;</span> just enough to make life easier
           </p>
         </div>
       </aside>
