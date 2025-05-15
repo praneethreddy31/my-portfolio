@@ -7,7 +7,6 @@ export const metadata: Metadata = {
   title: "Praneeth Reddy",
   description: "engineer at the intersection of design and web development",
 }
-3
 // Icon component for consistent logo display
 const Icon = ({ src, alt }: { src: string; alt: string }) => (
   <div className="flex items-center justify-center w-10 h-10 bg-neutral-2 dark:bg-neutral-dark-2 rounded-lg overflow-hidden">
