@@ -276,6 +276,83 @@ export default function Home() {
           
           </ol>
       </section>
+       {/* Selected Projects Section */}
+            <section className="flex flex-col gap-4">
+        <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
+          <div>
+            <h2 className="font-semibold text-xl sm:text-sm tracking-tight lowercase text-neutral-8 dark:text-neutral-dark-8">
+              AI- Integrated projects
+            </h2>
+          </div>
+        </div>
+        <ol className="flex flex-col gap-4">
+
+        <li>
+            <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
+              <div className="w-full max-w-32 flex sm:justify-end">
+                <Icon src="https://ext.same-assets.com/1107240702/1618200265.svg" alt="Inploi SDK logo" />
+              </div>
+              <div>
+                <header className="lowercase text-sm">
+                  <h3 className="text-neutral-8 dark:text-neutral-dark-8">
+                    <Link href="https://ai-resume-analyzer-roan.vercel.app/" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
+                    Resume Analyzer
+                      <span className="not-sr-only"> ↗</span>
+                    </Link>
+                  </h3>
+                </header>
+                <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
+                Student Resume AI is an AI-powered tool that helps students improve their resumes by providing PDF analysis, ATS scores, and actionable feedback using the Gemini API.
+                </p>
+              </div>
+            </div>
+          </li>
+          {/*
+
+          <li>
+            <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
+              <div className="w-full max-w-32 flex sm:justify-end">
+                <Icon src="https://ext.same-assets.com/1107240702/1618200265.svg" alt="Inploi SDK logo" />
+              </div>
+              <div>
+                <header className="lowercase text-sm">
+                  <h3 className="text-neutral-8 dark:text-neutral-dark-8">
+                    <Link href="https://www.instantinterior.in/" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
+                    instant interior
+                      <span className="not-sr-only"> ↗</span>
+                    </Link>
+                  </h3>
+                </header>
+                <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
+                This application provides AI-powered interior design services, allowing users to transform their spaces with various design options.
+                </p>
+              </div>
+            </div>
+          </li>
+        
+          <li>
+            <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
+              <div className="w-full max-w-32 flex sm:justify-end">
+                <Icon src="https://ext.same-assets.com/1107240702/4164160248.svg" alt="Winden UI logo" />
+              </div>
+              <div>
+                <header className="lowercase text-sm">
+                  <h3 className="text-neutral-8 dark:text-neutral-dark-8">
+                    <Link href="https://travelhomes-frontend.vercel.app/" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
+                     travels homes
+                      <span className="not-sr-only"> ↗</span>
+                    </Link>
+                  </h3>
+                </header>
+                <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
+                a travel project that helps people plan and enjoy road trips in camper vans, rvs, and motorhomes, giving them the freedom to explore at their own pace.
+                </p>
+              </div>
+            </div>
+          </li>
+          */}
+        </ol>
+      </section>
 
 
       {/* Contact Section */}
