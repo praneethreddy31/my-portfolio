@@ -124,36 +124,17 @@ export default function Home() {
       </section> */}
 
             {/* Selected Projects Section */}
-            <section className="flex flex-col gap-4">
+            <section className="flex flex-col gap-1">
         <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
           <div>
             <h2 className="font-semibold text-xl sm:text-sm tracking-tight lowercase text-neutral-8 dark:text-neutral-dark-8">
-              ongoing projects
+              
             </h2>
           </div>
         </div>
         <ol className="flex flex-col gap-4">
+          
 
-        <li>
-            <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
-              <div className="w-full max-w-32 flex sm:justify-end">
-                <Icon src="https://ext.same-assets.com/1107240702/366769914.svg" alt="Inploi SDK logo" />
-              </div>
-              <div>
-                <header className="lowercase text-sm">
-                  <h3 className="text-neutral-8 dark:text-neutral-dark-8">
-                    <Link href="https://mypocket-phi.vercel.app/" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
-                    My-Pocket
-                      <span className="not-sr-only"> ↗</span>
-                    </Link>
-                  </h3>
-                </header>
-                <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
-                MyPocket is a full-stack web application designed to help students efficiently manage their budgets and make smarter financial decisions. 
-                </p>
-              </div>
-            </div>
-          </li>
           {/*
 
           <li>
@@ -273,6 +254,27 @@ export default function Home() {
               </div>
             </div>
           </li>
+
+           <li>
+            <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
+              <div className="w-full max-w-32 flex sm:justify-end">
+                <Icon src="https://ext.same-assets.com/1107240702/366769914.svg" alt="Inploi SDK logo" />
+              </div>
+              <div>
+                <header className="lowercase text-sm">
+                  <h3 className="text-neutral-8 dark:text-neutral-dark-8">
+                    <Link href="https://mypocket-phi.vercel.app/" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
+                    My-Pocket
+                      <span className="not-sr-only"> ↗</span>
+                    </Link>
+                  </h3>
+                </header>
+                <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
+                MyPocket is a full-stack web application designed to help students efficiently manage their budgets and make smarter financial decisions. 
+                </p>
+              </div>
+            </div>
+          </li>
           
           </ol>
       </section>
@@ -307,6 +309,28 @@ export default function Home() {
               </div>
             </div>
           </li>
+
+           <li>
+            <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
+              <div className="w-full max-w-32 flex sm:justify-end">
+                <Icon src="https://ext.same-assets.com/1107240702/4164160248.svg" alt="Inploi SDK logo" />
+              </div>
+              <div>
+                <header className="lowercase text-sm">
+                  <h3 className="text-neutral-8 dark:text-neutral-dark-8">
+                    <Link href="https://ai-planet-lac.vercel.app/" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
+                    AI-Planet Q&A
+                      <span className="not-sr-only"> ↗</span>
+                    </Link>
+                  </h3>
+                </header>
+                <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
+                lets users upload PDF documents and ask questions about their content using natural language processing.
+                </p>
+              </div>
+            </div>
+          </li>
+
           {/*
 
           <li>
