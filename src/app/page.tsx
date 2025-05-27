@@ -331,6 +331,26 @@ export default function Home() {
             </div>
           </li>
 
+           <li>
+            <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
+              <div className="w-full max-w-32 flex sm:justify-end">
+                <Icon src="https://ext.same-assets.com/1107240702/3005105550.svg" alt="Inploi SDK logo" />
+              </div>
+              <div>
+                <header className="lowercase text-sm">
+                  <h3 className="text-neutral-8 dark:text-neutral-dark-8">
+                    <Link href="https://github.com/praneethreddy31/MCP-File-Manager" className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg">
+                    MCP-File-Manager
+                      <span className="not-sr-only"> ↗</span>
+                    </Link>
+                  </h3>
+                </header>
+                <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
+                A Model Context Protocol (MCP) server that provides AI assistants with secure file system access and management capabilities.</p>
+              </div>
+            </div>
+          </li>
+
           {/*
 
           <li>
